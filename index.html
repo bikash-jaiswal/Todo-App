@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+    <!-- favicon trick-->
+    <link rel="icon" href="https://www.google.com/s2/favicons?domain=cdnjs.com">
+    <!-- Adding Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container" id="container">
+        <h2 class="title" id="title">Todo List Application</h2>
+        <div class="form" id="form">
+            <form action="" method="post">
+                <input type="text" id="user-input" placeholder=" Add New Task" required>
+                <button class="add" id="add-button">Add</button>
+            </form>
+        </div>
+        <div class="list-display" id="list-display">
+            <h2 class="todo-header" id="todo-header">List to do:</h2>
+            <ul class="list" id="list">
+                <li class="todos">1st list</li>
+            </ul>
+            <button class="clear" id="clear">Clear</button>
+        </div>
+    </div>
+
+
+    <!-- <i class="fas fa-address-card"></i> -->
+
+    <!-- script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
