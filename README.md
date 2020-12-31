@@ -1,4 +1,4 @@
-Preview live at https://bikash-jaiswal.github.io/google-homepage/
+Preview live at https://bikash-jaiswal.github.io/Todo-App/
 
 This project is simple TODO APPs which used localstorage.
 
